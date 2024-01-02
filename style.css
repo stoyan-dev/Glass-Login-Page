@@ -12,16 +12,20 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: blueviolet;
+    background: url("./background-mountains.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .wrapper {
     width: 420px;
-    background-color: green;
+    background-color:transparent;
     box-shadow: 10px 0 10px rgba(0, 0, 0, 0.1);
     color: #fff;
     border-radius: 12px;
     padding: 30px 40px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
 }
 
 .wrapper h1 {
